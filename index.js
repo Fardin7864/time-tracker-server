@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://fardin18:hamba78@cluster0.7k1zdza.mongodb.net/?retryWrites=true&w=majority`;
 
-//middlewares
+
 app.use(express.json());
 // app.use(cookieParser());
 app.use(
